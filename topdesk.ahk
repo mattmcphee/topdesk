@@ -1,12 +1,19 @@
 ﻿#SingleInstance Force
 
+CoordMode "Mouse", "Window"
+
 F2::
 {
   BlockInput true
   MouseGetPos &x, &y
-  MouseMove 368, 566
+  Sleep 50
+  MouseMove 375, 590
   Click
-  MouseMove 610, 687
+  Sleep 400
+  MouseMove 1226, 668
+  Click
+  Sleep 400
+  MouseMove 622, 698
   Click
   Sleep 400
   MouseMove 0, 20, 0, "R"
@@ -18,10 +25,10 @@ F2::
   MouseMove 0, 20, 0, "R"
   Click
   Sleep 50
-  MouseMove 611, 898
+  MouseMove 624, 909
   Click
   Sleep 50
-  MouseMove 1525, 175
+  MouseMove 1529, 202
   Click
   Sleep 50
   MouseMove x, y
